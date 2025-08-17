@@ -1,0 +1,74 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered
+
+setup = new Template.Microlesson {
+  friendlyName = "Setup"
+  dirName = "setup"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/ws2n5chhdx"
+}
+
+concepts = new Template.Microlesson {
+  friendlyName = "Concepts"
+  dirName = "concepts"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/5xle6zxl5n"
+}
+
+writingAPythonClass = new Template.Microlesson {
+  friendlyName = "Writing a Python Class"
+  dirName = "writing-a-python-class"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/to51e2bjb5"
+}
+
+instantiatingObjects = new Template.Microlesson {
+  friendlyName = "Instantiating Objects"
+  dirName = "instantiating-objects"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/ndsphtq71y"
+}
+
+overridingMethods = new Template.Microlesson {
+  friendlyName = "Overriding Methods"
+  dirName = "overriding-methods"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/uasymeu7ii"
+}
+
+createAVehicleClass = new Template.Microlesson {
+  friendlyName = "Create a <code>Vehicle</code> Class"
+  dirName = "create-a-vehicle-class"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/yos34a62cu"
+}
+
+classVsInstanceMembers = new Template.Microlesson {
+  friendlyName = "Class vs. Instance Members"
+  dirName = "class-vs-instance-members"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/gcxy5vgnrk"
+}
+
+inheritance = new Template.Microlesson {
+  friendlyName = "Inheritance"
+  dirName = "inheritance"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/itsu9ccgtx"
+}
+
+createABankAccountClass = new Template.Microlesson {
+  friendlyName = "Create a <code>BankAccount</code> Class"
+  dirName = "create-a-bank-account-class"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/1kjuvlka27"
+}
+
+createASavingsAccountSubclass = new Template.Microlesson {
+  friendlyName = "Create a <code>SavingsAccount</code> Subclass"
+  dirName = "create-a-savings-account-subclass"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/ne1fr6qqt4"
+}
+
