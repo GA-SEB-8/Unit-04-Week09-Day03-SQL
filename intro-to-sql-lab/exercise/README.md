@@ -5,10 +5,9 @@
 
 ## Instructions
 
-Solve each clue in the `clues.sql` file in your starter code repo.
+- Now that you are set up work in the `query tool` you opened in the setup.
 
-Run the SQL file in the terminal as you solve each clue:
+- Run the script as you go to check your work
 
-```bash
-psql -f clues.sql
-```
+- When you are finished submit the query tool with all your queries.
+
