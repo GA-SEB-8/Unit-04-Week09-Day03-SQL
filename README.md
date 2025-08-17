@@ -1,4 +1,4 @@
-## Week 7 Day 2 (Sun 25)
+## Week 7 Day 2 (Sun 26)
 
 ### Morning
 
@@ -12,7 +12,7 @@
 
 ### Homework
 
-- [Intro To SQL Lab][4]
+- [Intro To SQL Lab][3]
 
 
 [1]: ./python-classes/
