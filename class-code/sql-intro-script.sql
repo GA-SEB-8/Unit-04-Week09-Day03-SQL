@@ -1,8 +1,8 @@
 -- Creating a new table in our database
 CREATE TABLE bands(
 -- columnName dataType constraint
-	band_id INTEGER,
-	name VARCHAR(255),
+	band_id SERIAL PRIMARY KEY,
+	name VARCHAR(255) NOT NULL,
 	genre VARCHAR(255)
 );
 
@@ -17,4 +17,5 @@ DROP TABLE bands;
 
 -- Add a row to the table
 INSERT INTO bands(band_id,name,genre)
-VALUES(1,'The Beatles','Rock')
+VALUES(1,'The Beatles','Rock');
+
