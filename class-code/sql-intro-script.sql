@@ -10,14 +10,17 @@ CREATE TABLE bands(
 -- Query a table
 SELECT * FROM bands;
 
+-- Query specific columns from the table
+SELECT band_id, name from bands;
+
 
 -- Delete a table
 DROP TABLE bands;
 
 
 -- Add a row to the table
-INSERT INTO bands(name,genre)
-VALUES('The Beatles','Rock');
+INSERT INTO bands(genre)
+VALUES('Rock');
 
 
 -- Inserting Multiple Values into the Table
@@ -25,4 +28,10 @@ INSERT INTO bands(name,genre)
 VALUES
 	('Metalica','Rock'),
 	('Maroon 5','Pop');
+
+
+-- Deleting from a table
+-- BE CAREFUL: Always have a WHERE clause when deleting
+DELETE FROM bands
+WHERE band_id=3;
 	
