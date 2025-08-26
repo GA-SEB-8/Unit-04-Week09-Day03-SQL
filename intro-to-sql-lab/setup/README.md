@@ -16,6 +16,6 @@ cd ~/code/ga/labs
 3. Copy the world.sql from this link [starter-data.sql file](../intro-to-sql-lab-starter-code/starter-data.sql) and paste it in your query tool
 4. execute the script
 5. Now erase everything in your query tool
-6. paste what is in the [clues.sql file](../intro-to-sql-lab-starter-code/world.sql)
+6. paste what is in the [clues.sql file](../intro-to-sql-lab-starter-code/sql.sql)
 7. now follow the steps in the clues.sql that you copied and complete the lab
 
