@@ -130,3 +130,37 @@ VALUES('Unkown song', 120 );
 SELECT * FROM songs;
 
 
+
+CREATE TABLE musicians_bands(
+	musician_id INTEGER REFERENCES musicians(musician_id),
+	band_id INTEGER REFERENCES bands(band_id),
+	PRIMARY KEY(musician_id, band_id)
+);
+
+
+INSERT INTO musicians(name)
+VALUES
+	('Paul Mccartney'),
+	('John Lennon'),
+	('Jamal');
+
+
+SELECT * FROM songs;
+SELECT * FROM bands;
+SELECT * FROM musicians;
+SELECT * FROM musicians_bands;
+SELECT * FROM albums;
+
+
+INSERT INTO musicians_bands(musician_id,band_id)
+VALUES(3,6);
+
+
+SELECT 
+	b.name AS band_name,
+	m.name AS musician_name,
+	m.musician_id,
+	b.band_id
+FROM musicians_bands bm
+RIGHT JOIN musicians m ON bm.musician_id = m.musician_id
+RIGHT JOIN bands b ON bm.band_id = b.band_id;
