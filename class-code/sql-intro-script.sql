@@ -14,6 +14,11 @@ SELECT * FROM bands;
 SELECT band_id, name from bands;
 
 
+-- WHERE clause with SELECT
+SELECT * FROM bands
+WHERE genre='Rock';
+
+
 -- Delete a table
 DROP TABLE bands;
 
@@ -34,4 +39,11 @@ VALUES
 -- BE CAREFUL: Always have a WHERE clause when deleting
 DELETE FROM bands
 WHERE band_id=3;
-	
+
+
+
+-- Updating a row in the table
+UPDATE bands
+SET genre='Arabic'
+WHERE band_id = 1;
+
