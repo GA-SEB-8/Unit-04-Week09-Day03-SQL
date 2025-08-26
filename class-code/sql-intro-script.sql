@@ -16,6 +16,6 @@ DROP TABLE bands;
 
 
 -- Add a row to the table
-INSERT INTO bands(band_id,name,genre)
-VALUES(1,'The Beatles','Rock');
+INSERT INTO bands(name,genre)
+VALUES('The Beatles','Rock');
 
