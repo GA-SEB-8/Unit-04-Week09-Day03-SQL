@@ -94,3 +94,13 @@ SELECT * FROM songs;
 -- Create a new table for albums
 -- this table should have: id, name, band_id
 -- the band id should be a foreign key linked to the bands table
+
+CREATE TABLE albums(
+	album_id SERIAL PRIMARY KEY,
+	name VARCHAR(255) UNIQUE,
+	minutes INTEGER CHECK(minutes >0 AND minutes <300),
+	band_id INTEGER REFERENCES bands(band_id)
+);
+
+INSERT INTO albums(name,minutes, band_id)
+VALUES('something',-1,1);
