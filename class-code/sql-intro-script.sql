@@ -84,3 +84,8 @@ CREATE TABLE songs(
 );
 
 DROP TABLE songs;
+
+INSERT INTO songs(name,length,band_id)
+VALUES('Jude',125,1);
+
+SELECT * FROM songs;
