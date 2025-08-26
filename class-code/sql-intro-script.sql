@@ -47,3 +47,27 @@ UPDATE bands
 SET genre='Arabic'
 WHERE band_id = 1;
 
+
+-- ORDER the results
+SELECT * FROM bands
+ORDER BY name;
+
+-- Reverse Order
+SELECT * FROM bands
+ORDER BY name DESC;
+
+
+-- AND clause
+SELECT * FROM bands
+WHERE name = 'The Beatles' AND genre='Rock';
+
+-- OR clause
+SELECT * FROM bands
+WHERE name = 'The Beatles' OR genre='rock';
+
+
+-- ILIKE: case insensitive search
+-- LIKE: case sensitive search
+-- '%ro%': any genre that has ro in it will be returned
+SELECT * FROM bands
+WHERE genre ILIKE '%ro%';
