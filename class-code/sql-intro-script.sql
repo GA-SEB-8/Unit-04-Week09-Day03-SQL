@@ -71,3 +71,16 @@ WHERE name = 'The Beatles' OR genre='rock';
 -- '%ro%': any genre that has ro in it will be returned
 SELECT * FROM bands
 WHERE genre ILIKE '%ro%';
+
+
+
+
+-- Relationships
+CREATE TABLE songs(
+	song_id SERIAL PRIMARY KEY,
+	name VARCHAR(255),
+	length INTEGER,
+	band_id INTEGER REFERENCES bands(band_id)
+);
+
+DROP TABLE songs;
