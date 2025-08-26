@@ -19,3 +19,10 @@ DROP TABLE bands;
 INSERT INTO bands(name,genre)
 VALUES('The Beatles','Rock');
 
+
+-- Inserting Multiple Values into the Table
+INSERT INTO bands(name,genre)
+VALUES
+	('Metalica','Rock'),
+	('Maroon 5','Pop');
+	
