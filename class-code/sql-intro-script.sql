@@ -89,3 +89,8 @@ INSERT INTO songs(name,length,band_id)
 VALUES('Jude',125,1);
 
 SELECT * FROM songs;
+
+-- EXERCISE 1:
+-- Create a new table for albums
+-- this table should have: id, name, band_id
+-- the band id should be a foreign key linked to the bands table
