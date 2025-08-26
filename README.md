@@ -3,6 +3,8 @@
 ### Morning
 
 - [Python Classes][1]
+- [Intro To SQL][2]
+
 
 
 ### Afternoon
