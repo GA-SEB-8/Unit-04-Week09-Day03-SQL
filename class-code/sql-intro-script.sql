@@ -103,4 +103,30 @@ CREATE TABLE albums(
 );
 
 INSERT INTO albums(name,minutes, band_id)
-VALUES('something',-1,1);
+VALUES('something',155,1);
+
+
+SELECT 
+	b.band_id,
+	s.song_id,
+	s.name AS song_name,
+	b.name AS band_name,
+	b.genre
+FROM songs s
+FULL JOIN bands b ON b.band_id = s.band_id;
+
+
+
+CREATE TABLE musicians(
+	musician_id SERIAL PRIMARY KEY,
+	name VARCHAR(255)
+);
+
+
+INSERT INTO songs(name, length)
+VALUES('Unkown song', 120 );
+
+
+SELECT * FROM songs;
+
+
